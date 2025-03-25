@@ -1,0 +1,164 @@
+
+:root{
+	--color-aqua:#00d9d9;
+	--color-titulos:#000;
+	--color-contenido: #2d2d2d;
+	--bg-header:#000;
+	--bg-footer:#222222;
+}
+body{
+	color:var(--color-contenido);
+	font-family: "Raleway", sans-serif;
+}
+
+header{
+	background-color: var(--bg-header);
+	padding: 20px 0;
+	
+}
+
+
+#slides{
+	
+	h1: "Montserrat", sans-serif;
+	text-align: right;
+	color: #FFFFFF;
+	background-image: url("../img/slide-1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 300px 200px;
+	
+}
+
+			
+.btn-primary {
+    padding: 5px 10px;
+    background-color: #00d9d9;
+    color: #FFFFFF;
+    border: #FFFEFE;
+	border-radius: 1px;
+	
+}
+
+.services {
+	background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.service-item {
+  background-color: #FFFFFF;
+	width: 30%;
+    max-width: 300px;
+	
+}
+
+.icon {
+    background-color: #00d9d9;
+    color: #FFFFFF;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #D6D6D6;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+}
+
+
+ .about {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+        }
+
+ .about img {
+    width: 50%;
+        }
+        
+
+
+.team {
+	background: #FFFFFF;
+    padding: 50px 0;
+	
+	
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+	text-align: center;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #666;
+	align-content: center;
+	text-align: center;
+}
+
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.team-member {
+    text-align: center;
+    max-width: 250px;
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 15px;
+}
+
+.role {
+    font-size: 14px;
+    color: #888;
+
+
+
+footer{
+	background-color: var(--bg-footer);
+	color: #888;
+	padding: 30px 0;
+	font-size: 13px;
+	font-weight: 600;
+	text-align: center;
+}
+footer p span{
+	color: var(--color-aqua);
+}
+footer{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
